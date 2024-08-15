@@ -1,0 +1,83 @@
+
+
+.snakeTail {
+    background-color: green;
+    padding: 5px;
+    border: 0px;
+    border-color: white;
+    border-radius: 0px;
+}
+
+.blackBoard {
+    background-color: black;
+    padding: 5px;
+    border: 0px;
+    border-color: white;
+    /* border-radius: 10px; */
+}
+
+.yellowBoard {
+    background-color: yellow;
+    padding: 5px;
+    border: 0px;
+    border-color: white;
+}
+
+.apple {
+    background-color: red;
+    padding: 5px;
+    border: 0px;
+    border-color: white;
+    border-radius: 0px;
+}
+
+.UP {
+    background-color: greenyellow;
+    border: 0px;
+    color: brown;
+    height: 50px;
+    width: 50px;
+}
+.DOWN {
+    background-color: white;
+    border: 0px;
+    color: brown;
+    height: 50px;
+    width: 50px;
+}
+
+.AnotherG {
+
+    background-color: greenyellow;
+    border: 0px;
+    color: brown;
+    height: 40px;
+    width: 100px;
+}
+.AnotherR {
+
+    background-color: rebeccapurple;
+    border: 0px;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+.cntr {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .cntr {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cntr {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }

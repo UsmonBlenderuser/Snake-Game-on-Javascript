@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java test</title>
+        <link rel="stylesheet" href="snakestyle.css">
+    </head>
+    <body>
+        <div class="cntr">
+            <div class="keys">
+                Settings:<br><br>
+                Speed:
+                <input type="number" class="Speedinput" value="200">
+                <br>
+                border X:
+                <input type="number" class="borderX" value="30">
+                <br>
+                border Y:
+                <input type="number" class="borderY" value="20">
+                <br>
+                <button onclick="Save()">Save</button><br>
+                <br>
+                <br>
+                <br>
+
+                <button onclick="" class="DOWN"></button>
+                <button onclick="up()" class="UP">UP</button>
+                <button onclick="" class="DOWN"></button>
+                <br>
+                <button onclick="left()" class="UP">left</button>
+                <button onclick="" class="DOWN"></button>
+                <button onclick="right()" class="UP">right</button>
+                <br>
+                <button onclick="" class="DOWN"></button>
+                <button onclick="down()" class="UP">Down</button>
+                <button onclick="" class="DOWN"></button><br>
+
+            </div>
+            <div>
+                <p id="score">0</p>
+                <p id="bestscore"></p>
+            </div>
+            <div class="dashboard"></div>
+            <br>
+            <br>
+            <br>
+            <div class="bottomKeys">
+                <button onclick="Reset()" class="AnotherG">Start the Game</button>
+                <button onclick="Reset()" class="AnotherR">Restart the Game</button>
+                <button onclick="Pause()" class="AnotherG">Pause the Game</button>
+            </div>
+        </div>
+        </body>
+    <script type="text/javascript" src="snake.js"></script>
+</html>
